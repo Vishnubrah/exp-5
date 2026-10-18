@@ -1,10 +1,9 @@
-word="i like python and i like ai"
-text=word.split()
-count={}
-for i in text:
-    count[i]=count.get(i,0)+1
-print(count)
+friend_1='cricket football chess gaming'
+friend_2='gaming coding badminton cricket'
+friends_1=friend_1.split()
+friends_2=friend_2.split()
+unique1=set(friends_1)
+unique2=set(friends_2)
+common=unique1&unique2
+print(common)
 
-
-vishnu=[1,32,43,547,65]
-print(vishnu)
